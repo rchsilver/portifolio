@@ -6,9 +6,9 @@ export const StyledSkill = styled.section`
   color: var(--color-grey-00);
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
   margin-bottom: 50px;
   h2 {
+    padding-top: 130px;
     filter: drop-shadow(0px 0px 5px var(--color-grey-00));
     margin-bottom: 30px;
   }

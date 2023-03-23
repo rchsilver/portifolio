@@ -36,6 +36,7 @@ export const StyledContact = styled.section`
   }
   @media screen and (min-width: 800px) {
     ul {
+      gap: 25px;
       flex-direction: row;
     }
   }

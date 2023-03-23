@@ -3,7 +3,7 @@ import otakusCover from "../../assets/Cover/otakusDaKenzieCover.svg";
 
 export function Projects() {
   return (
-    <StyledProjects>
+    <StyledProjects id="project">
       <h2>Projetos</h2>
       <ul>
         <li>

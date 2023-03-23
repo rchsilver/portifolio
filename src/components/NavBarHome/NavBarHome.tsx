@@ -4,9 +4,9 @@ export function NavBarHome() {
     <StyledNavBar>
       <h2>Portifólio</h2>
       <nav>
-        <a>Perfil</a>
+        <a href="#profile">Perfil</a>
         <a href="#skills">Habilidades</a>
-        <a>Projetos</a>
+        <a href="#project">Projetos</a>
         <a href="#contatc">Contatos</a>
       </nav>
     </StyledNavBar>

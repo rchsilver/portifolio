@@ -8,7 +8,6 @@ export const StyledProfile = styled.section`
   width: 100%;
   gap: 0.5rem;
   padding-top: 30px;
-  padding-bottom: 30px;
   background-color: var(--color-blue-03);
   color: var(--color-grey-00);
   margin-top: 100px;
