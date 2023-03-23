@@ -35,6 +35,12 @@ export const StyledSkill = styled.section`
       svg {
         font-size: 30px;
       }
+      a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
   li:hover {

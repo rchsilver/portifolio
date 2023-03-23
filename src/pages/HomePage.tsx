@@ -1,3 +1,4 @@
+import { Contact } from "../components/Contact/Contact.js";
 import { NavBarHome } from "../components/NavBarHome/NavBarHome.js";
 import { Profile } from "../components/Profile/Profile.js";
 import { Skills } from "../components/Skills/Skills.js";
@@ -9,6 +10,7 @@ export function HomePage() {
       <NavBarHome />
       <Profile />
       <Skills />
+      <Contact />
     </StyledHomePage>
   );
 }

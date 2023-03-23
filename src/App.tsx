@@ -1,10 +1,13 @@
 import { HomePage } from "./pages/HomePage";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { PortifolioProvider } from "./context/PortifolioContext";
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      <PortifolioProvider>
+        <HomePage />
+      </PortifolioProvider>
     </div>
   );
 }

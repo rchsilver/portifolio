@@ -7,9 +7,15 @@ export const Reset = createGlobalStyle`
         outline:0;
         box-sizing:border-box;
         text-decoration: none;
+        ul {
+            padding:0;
+        }
         li {
-  list-style-type: none;
-}
+        list-style-type: none;
+        }
+        a {
+            text-decoration: none;
+        }
     }
     #root{
         margin:0 auto;

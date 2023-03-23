@@ -14,31 +14,33 @@ export function Skills() {
       <ul>
         <li>
           <FaHtml5 />
-          <span>HTML</span>
+          <a>HTML</a>
         </li>
         <li>
           <FaCss3 />
-          <span>CSS</span>
+          <a>CSS</a>
         </li>
         <li>
           <SiJavascript />
-          <span>JavaScript</span>
+          <a>JavaScript</a>
         </li>
         <li>
           <SiTypescript />
-          <span>TypeScript</span>
+          <a>TypeScript</a>
         </li>
         <li>
           <SiStyledcomponents />
-          <span>CSS-in-JS/TS</span>
+          <a>CSS-in-JS/TS</a>
         </li>
         <li>
           <FaReact />
-          <span>React</span>
+          <a>React</a>
         </li>
         <li>
-          <SiGithub />
-          <span>GitHub</span>
+          <a>
+            <SiGithub />
+            GitHub
+          </a>
         </li>
       </ul>
     </StyledSkill>
