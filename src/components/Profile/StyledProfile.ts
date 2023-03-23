@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledProfile = styled.div`
+export const StyledProfile = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,6 +11,7 @@ export const StyledProfile = styled.div`
   padding-bottom: 30px;
   background-color: var(--color-blue-03);
   color: var(--color-grey-00);
+  margin-top: 100px;
 
   div {
     display: flex;
@@ -22,6 +23,7 @@ export const StyledProfile = styled.div`
       background-color: var(--color-blue-00);
       padding: 0.3rem;
       border-radius: 4px;
+      margin-bottom: 5px;
       filter: drop-shadow(0px 0px 5px var(--color-grey-00));
       border: solid 2px var(--color-blue-00);
     }

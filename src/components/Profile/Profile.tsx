@@ -14,6 +14,7 @@ export function Profile() {
         <span onClick={handleShow}>Sobre Mim</span>
       </div>
       <h3>E sou um programador!</h3>
+
       <ProfileModal />
     </StyledProfile>
   );

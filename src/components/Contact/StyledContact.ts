@@ -7,12 +7,13 @@ export const StyledContact = styled.section`
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding-bottom: 25px;
   a {
     color: var(--color-grey-00);
   }
   h2 {
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     filter: drop-shadow(0px 0px 5px var(--color-grey-00));
   }
   ul {

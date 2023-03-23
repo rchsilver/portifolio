@@ -10,7 +10,7 @@ import {
 export function Skills() {
   return (
     <StyledSkill>
-      <h2>Habilidades</h2>
+      <h2 id="skills">Habilidades</h2>
       <ul>
         <li>
           <FaHtml5 />

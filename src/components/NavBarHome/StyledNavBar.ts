@@ -9,9 +9,15 @@ export const StyledNavBar = styled.header`
   padding: 1rem;
   color: var(--color-grey-00);
   background-color: var(--color-blue-04);
+  position: fixed;
+  top: 0;
+  z-index: 2;
   filter: drop-shadow(0px 0px 5px var(--color-grey-00));
   h2 {
     filter: drop-shadow(0px 0px 5px var(--color-grey-00));
+  }
+  a {
+    color: var(--color-grey-00);
   }
   nav {
     display: flex;
@@ -21,7 +27,7 @@ export const StyledNavBar = styled.header`
     flex-direction: row;
 
     nav {
-      span:hover {
+      a:hover {
         filter: drop-shadow(0px 0px 5px var(--color-grey-00));
         cursor: pointer;
       }
